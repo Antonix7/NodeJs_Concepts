@@ -1,32 +1,36 @@
-**************************************************
-*Descripcion de carpetas:*
+## Forder info
+```markdown
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        27/08/2023     17:29                APIfetch
+d-----        27/08/2023     16:41                data
+d-----        27/08/2023     17:17                Esmodules
+d-----        27/08/2023     16:05                Events
+d-----        27/08/2023     14:31                JavaScript
+d-----        27/08/2023     10:16                math
+d-----        27/08/2023      9:52                modules
+d-----        27/08/2023     12:53                node_modules
+d-----        27/08/2023     14:34                npm_&_nodeModules
+d-----        27/08/2023     16:44                others
+d-----        27/08/2023     15:55                promises
+d-----        27/08/2023     13:02                public
+d-----        27/08/2023     14:37                servers
+d-----        27/08/2023     16:44                streams_&_http
+-a----        27/08/2023     19:04             12 .gitignore
+-a----        27/08/2023     12:53          13879 package-lock.json
+-a----        27/08/2023     17:17            349 package.json
+```
 
-APIfetch // Aqui hay un ejemplo practico de uso de la Fake API fetch.
+## Other info
+> [NodeJs documentation](https://nodejs.org/en/docs)
 
-data // Aqui hay, y, se almacenan archivos.txt creados por el modulo fs.
+## Setup and run
+- Dependencies
+```bash
+npm install
+```
 
-Esmodules // Aqui hay ejemplos de como importar los modulos de node en forma de modulo ES.
-
-Events // Aqui hay ejemplos de eventos en NodeJs.
-
-JavaScript // Esto es codigo tipico de JavaScript.
-
-math // Aqui hay tipicas funciones matematicas para exportar como modulos.
-
-modules // Aqui hay modulos personalizados-propios, para exportar.
-
-npm_y_nodeModules // Modulos tipicos que tiene NodeJs.
-
-others // Otros archivos que tienen datos como funciones timers, globales, etc.
-
-promises // Ejemplos de como hacer promesas en NodeJs de forma Async.
-
-public // Codigo html y/o recursos web.
-
-servers // Ejemplo de servidores estaticos en NodeJs.
-
-streams_y_http // Ejemplos de manear archivos "grandes" con un servidor estatico http.
---------------------------------------------------
-Recuerda usar (instalar todas las dependencias con "npm install").
-
-**************************************************
+- Run 'theArchive.js is for select run a archive, remeber extension .js'
+```bash
+node theArchive.js
+```
